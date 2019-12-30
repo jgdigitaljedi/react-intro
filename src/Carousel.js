@@ -1,6 +1,7 @@
 import React from "react";
 
 class Carousel extends React.Component {
+  // eslint-disable-next-line
   state = {
     photos: [],
     active: 0
