@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { render } from "react-dom";
+// import { render } from "react-dom";
 import { Router, Link } from "@reach/router";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
@@ -26,4 +26,6 @@ const App = () => {
   );
 };
 // eslint-disable-next-line
-render(<App />, document.getElementById("root"));
+// render(<App />, document.getElementById("root"));
+
+export default App;
