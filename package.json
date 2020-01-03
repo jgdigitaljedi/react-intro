@@ -9,7 +9,8 @@
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "tslint --project",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clear-build-cache": "rm -rf .cache/ .dist/"
+    "clear-build-cache": "rm -rf .cache/ .dist/",
+    "typecheck": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",
